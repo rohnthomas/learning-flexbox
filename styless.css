@@ -30,13 +30,6 @@
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
 }
-.rbox{display: flex;
-    flex-direction: column;
-    flex:1;
-    justify-content: center;
-    
-  
-}
 .first{
     flex:1;
     border: 5px solid tomato;
@@ -105,6 +98,38 @@
     color: rgba(239, 236, 236, 0.925);
     font-weight: 400;
     font-size: 16px;
+}
+.rbox{display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+}
+.button:hover{
+    background: hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+.firstb{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 500px;
+}
+
+.bbutton{
+    padding-right: 1rem;
+    flex-basis:100%;
+    align-self: self-end;
+}
+
+.rbutton{
+    margin:5px;
+    height: 50px;
+    min-width: 250px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    font-size: 17px;
 }
 
 
