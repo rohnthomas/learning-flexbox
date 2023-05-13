@@ -7,15 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10rem;
 }
 .container{
-    flex:1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 100vh;
-    border: 5px solid tomato;
+    max-width: 660px;
+    height: 475px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 5px 10px rgb(245, 245, 245);
 }
 .box{
     display: flex;
@@ -24,22 +23,19 @@
 }
 
 .lbox{
+    flex:1;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    height: 500px;
-    width: 350px;
-    border: 5px solid tomato;
-    flex-wrap: wrap;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
 }
-.rbox{
+.rbox{display: flex;
     flex-direction: column;
-    display: flex;
-    height: 500px;
-    width: 350px;
-    border: 5px solid tomato;
-    flex-wrap: wrap;
+    flex:1;
+    justify-content: center;
+    
+  
 }
 .first{
     flex:1;
@@ -69,7 +65,7 @@
   .smallb{
     margin-top: 5px;
     font-size: 16px;
-    opacity: 0.7;
+    opacity: 1;
     color: white;
   }
 .b2{
@@ -82,19 +78,10 @@
     justify-content: center;
 }
 .firstr{
-    border: 5px solid tomato;
-    flex-wrap: wrap;
-    flex:1;
-}
-.rbuttons{
-    flex:1;
-    border: 5px solid tomato;
-    flex-wrap: wrap;
-}
-.rbbutton{
-    flex:1;
-    border: 5px solid tomato;
-    flex-wrap: wrap;
+ padding-right: 4rem;   
+ font-size: 28px;
+ font-weight:600;   
+ justify-content: center;
 }
 .first1{
     flex:0.3;
@@ -119,3 +106,9 @@
     font-weight: 400;
     font-size: 16px;
 }
+
+
+
+
+
+
