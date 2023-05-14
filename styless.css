@@ -103,7 +103,7 @@
     flex-direction: column;
     flex:1;
     justify-content: center;
-    border: 10px solid black;
+  
 }
 .button:hover{
     background: hsl(224, 30%, 27%);
@@ -115,7 +115,6 @@
     justify-content: center;
     flex-wrap:wrap;
     max-width: 500px;
-    border: 10px solid black;
 }
 
 .bbutton{
@@ -124,7 +123,6 @@
     flex-basis:100%;
     flex-wrap:wrap;
     align-self: self-end;
-    border: 10px solid black;
     min-width:300px;
  
 }
