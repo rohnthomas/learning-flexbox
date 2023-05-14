@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
 }
 .container{
     display: flex;
@@ -179,6 +178,9 @@
 }
 .doneby{
     font-size: smaller;
+    text-align: center;
+    
+
 }
 
 @media (max-width:500px){
