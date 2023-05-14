@@ -71,9 +71,9 @@
     justify-content: center;
 }
 .firstr{
- padding-right: 4rem;   
- font-size: 28px;
- font-weight:600;   
+ padding-right: 7rem;   
+ font-size: 21px;
+ font-weight:300;   
  justify-content: center;
 }
 .first1{
@@ -117,9 +117,13 @@
 }
 
 .bbutton{
-    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
     flex-basis:100%;
+    flex-wrap:wrap;
+    max-width: 500px;
     align-self: self-end;
+ 
 }
 
 .rbutton{
@@ -174,6 +178,21 @@
 }
 .doneby{
     font-size: smaller;
+}
+
+@media (max-width:500px){
+    .container{
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+    .out{
+        flex-direction: column;
+    }
+    .bbutton{
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
 }
 
 
